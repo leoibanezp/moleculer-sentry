@@ -1,0 +1,16 @@
+{
+  "name": "@currencybird/moleculer-sentry",
+  "version": "1.0..",
+  "description": "Allows intercepting requests made to external APIs and emitting an event for subsequent registration",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run co:login",
+    "co:login": "aws codeartifact login --tool npm --repository ms-common --domain currencybird",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Ibanez",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
