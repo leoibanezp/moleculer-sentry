@@ -1,6 +1,6 @@
 {
   "name": "@currencybird/moleculer-sentry",
-  "version": "1.0..",
+  "version": "1.0.0",
   "description": "Allows intercepting requests made to external APIs and emitting an event for subsequent registration",
   "main": "index.js",
   "scripts": {
