@@ -11,6 +11,7 @@
   "author": "Leonardo Ibanez",
   "license": "ISC",
   "dependencies": {
-    "uuid": "^8.3.2"
+    "@sentry/node": "^6.18.2",
+    "@sentry/tracing": "^6.18.2"
   }
 }
